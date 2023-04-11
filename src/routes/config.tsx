@@ -3,7 +3,7 @@ import type { RouteProps } from 'react-router';
 
 import { useIntl } from 'react-intl';
 
-import PrivateRoute from './pravateRoute';
+import PrivateRoute from './privateRoute';
 
 export interface WrapperRouteProps extends RouteProps {
   /** document title locale id */
