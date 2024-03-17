@@ -1,0 +1,199 @@
+[{
+  "_id": {
+    "$oid": "65b558c6ab40ed82dd177ef8"
+  },
+  "name": "Product 111",
+  "price": 1115,
+  "description": "Product 11 description",
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg",
+      "caption": "Product 1",
+      "_id": {
+        "$oid": "65b558c6ab40ed82dd177ef9"
+      },
+      "createdAt": {
+        "$date": "2024-01-27T19:25:58.163Z"
+      },
+      "updatedAt": {
+        "$date": "2024-01-27T19:25:58.163Z"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "rate": 5,
+      "text": "Good",
+      "author": "HoangNN",
+      "_id": {
+        "$oid": "65b558c6ab40ed82dd177efa"
+      },
+      "createdAt": {
+        "$date": "2024-01-27T19:25:58.165Z"
+      },
+      "updatedAt": {
+        "$date": "2024-01-27T19:25:58.165Z"
+      }
+    },
+    {
+      "rate": 5,
+      "text": "Very good",
+      "author": "DungPT",
+      "_id": {
+        "$oid": "65b558c6ab40ed82dd177efb"
+      },
+      "createdAt": {
+        "$date": "2024-01-27T19:25:58.165Z"
+      },
+      "updatedAt": {
+        "$date": "2024-01-27T19:25:58.165Z"
+      }
+    }
+  ],
+  "category": "65b5205fc73b4cedee28eafe",
+  "createdAt": {
+    "$date": "2024-01-27T19:25:58.166Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-29T01:48:28.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b703abbf6f176d6799307f"
+  },
+  "name": "Product 3",
+  "price": 1115,
+  "description": "Product 11 description",
+  "images": [
+    {
+      "url": "images/product1.png",
+      "caption": "Product 1",
+      "_id": {
+        "$oid": "65b703abbf6f176d67993080"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "rate": 5,
+      "text": "Good",
+      "author": "HoangNN",
+      "_id": {
+        "$oid": "65b703abbf6f176d67993081"
+      }
+    },
+    {
+      "rate": 5,
+      "text": "Very good",
+      "author": "DungPT",
+      "_id": {
+        "$oid": "65b703abbf6f176d67993082"
+      }
+    }
+  ],
+  "category": "65b5205fc73b4cedee28eafe",
+  "createdAt": {
+    "$date": "2024-01-29T01:47:23.881Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-29T01:50:08.143Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b70cabe90f64c3c0878cef"
+  },
+  "name": "Product 9",
+  "price": 1115,
+  "description": "Product 11 description",
+  "images": [
+    {
+      "url": "images/product1.png",
+      "caption": "Product 1",
+      "_id": {
+        "$oid": "65b703abbf6f176d67993080"
+      },
+      "createdAt": {
+        "$date": "2024-01-29T02:25:47.342Z"
+      },
+      "updatedAt": {
+        "$date": "2024-01-29T02:25:47.342Z"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "rate": 5,
+      "text": "Good",
+      "author": "HoangNN",
+      "_id": {
+        "$oid": "65b703abbf6f176d67993081"
+      },
+      "createdAt": {
+        "$date": "2024-01-29T02:25:47.343Z"
+      },
+      "updatedAt": {
+        "$date": "2024-01-29T02:25:47.343Z"
+      }
+    },
+    {
+      "rate": 5,
+      "text": "Very good",
+      "author": "DungPT",
+      "_id": {
+        "$oid": "65b703abbf6f176d67993082"
+      },
+      "createdAt": {
+        "$date": "2024-01-29T02:25:47.343Z"
+      },
+      "updatedAt": {
+        "$date": "2024-01-29T02:25:47.343Z"
+      }
+    }
+  ],
+  "category": {
+    "$oid": "65b5205fc73b4cedee28eafe"
+  },
+  "createdAt": {
+    "$date": "2024-01-29T02:25:47.345Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-29T02:25:47.345Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65db5cf050fba8a2702f0d54"
+  },
+  "name": "Product 91",
+  "price": 1256,
+  "description": "Jujuetsu",
+  "images": [
+    {
+      "_id": "65db5cf050fba8a2702f0d52",
+      "url": "https://i.pinimg.com/736x/98/58/74/9858745cd157f2797065e639c5b3bf23.jpg",
+      "caption": "Gojo"
+    }
+  ],
+  "comments": [
+    {
+      "_id": "65db5cfe50fba8a2702f0ec7",
+      "text": "1",
+      "author": "das"
+    }
+  ],
+  "category": {
+    "$oid": "65b5208ec73b4cedee28eb04"
+  },
+  "createdAt": {
+    "$date": "2024-02-25T15:29:52.352Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T15:30:06.980Z"
+  },
+  "__v": 0
+}]

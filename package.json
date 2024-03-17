@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^5.3.3",
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.5.0",
     "@reduxjs/toolkit": "^1.4.0",
@@ -22,8 +23,8 @@
     "styled-components": "^5.3.9"
   },
   "scripts": {
-    "dev": "copy .env.development .env && vite",
-    "build": "copy .env.production .env && tsc && vite build",
+    "dev": "cp .env.development .env && vite",
+    "build": "cp .env.production .env && tsc && vite build",
     "serve": "vite preview",
     "lint": "eslint . --ext js,ts,tsx",
     "lint-fix": "eslint . --ext js,ts,tsx",

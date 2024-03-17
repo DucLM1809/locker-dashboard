@@ -7,8 +7,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 import Avator from '@/assets/header/avator.jpeg';
-import { ReactComponent as EnUsSvg } from '@/assets/header/en_US.svg';
-import { ReactComponent as LanguageSvg } from '@/assets/header/language.svg';
 import { ReactComponent as MoonSvg } from '@/assets/header/moon.svg';
 import { ReactComponent as SunSvg } from '@/assets/header/sun.svg';
 import { ReactComponent as ZhCnSvg } from '@/assets/header/zh_CN.svg';
@@ -57,11 +55,6 @@ const HeaderComponent: FC<HeaderProps> = ({ collapsed, toggle }) => {
     navigate('/login');
   };
 
-  const selectLocale = ({ key }: { key: any }) => {
-    dispatch(setUserItem({ locale: key }));
-    localStorage.setItem('locale', key);
-  };
-
   const onChangeTheme = () => {
     const newTheme = theme === 'dark' ? 'light' : 'dark';
 
@@ -97,30 +90,7 @@ const HeaderComponent: FC<HeaderProps> = ({ collapsed, toggle }) => {
               })}
             </span>
           </Tooltip>
-          <HeaderNoticeComponent />
-          <Dropdown
-            menu={{
-              onClick: info => selectLocale(info),
-              items: [
-                {
-                  key: 'zh_CN',
-                  icon: <ZhCnSvg />,
-                  disabled: locale === 'zh_CN',
-                  label: '简体中文',
-                },
-                {
-                  key: 'en_US',
-                  icon: <EnUsSvg />,
-                  disabled: locale === 'en_US',
-                  label: 'English',
-                },
-              ],
-            }}
-          >
-            <span>
-              <LanguageSvg id="language-change" />
-            </span>
-          </Dropdown>
+          {/* <HeaderNoticeComponent /> */}
 
           {logged ? (
             <Dropdown
