@@ -42,15 +42,15 @@ const TalbePage: FC = () => {
           <Column title="Description" dataIndex="description" key="description" ellipsis={true} />
           <Column
             title="Created date"
-            dataIndex="createdAt"
+            dataIndex="createdAt.$date"
             key="createdAt"
-            render={val => dayjs(val).format('HH:mm:ss dd/mm/yyyy')}
+            render={val => dayjs(val).format('HH:mm:ss DD/MM/YYYY')}
           />
           <Column
             title="Updated date"
-            dataIndex="updatedAt"
+            dataIndex="updatedAt.$date"
             key="updatedAt"
-            render={val => dayjs(val).format('HH:mm:ss dd/mm/yyyy')}
+            render={val => dayjs(val).format('HH:mm:ss DD/MM/YYYY')}
           />
         </MyTable>
       </Space>
